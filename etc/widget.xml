@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="product_view" class="Yireo\ExampleHomepageColorWidget\Block\ExampleWidget" placeholder_image="Magento_CatalogWidget::images/products_list.png">
+        <label translate="true">Custom Product View</label>
+        <description translate="true">Display a single product</description>
+        <parameters>
+            <parameter name="template" xsi:type="select" required="true" visible="true">
+                <label translate="true">Template</label>
+                <options>
+                    <option name="default" value="Yireo_ExampleHomepageColorWidget::example.phtml" selected="true">
+                        <label translate="true">Original Luma template</label>
+                    </option>
+                    <option name="hyva" value="Hyva_YireoExampleHomepageColorWidget::example.phtml" selected="false">
+                        <label translate="true">Hyva template</label>
+                    </option>
+                </options>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
