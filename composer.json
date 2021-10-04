@@ -1,10 +1,11 @@
 {
-  "name": "hyva/yireo-example-widget",
+  "name": "hyva-themes/magento2-yireo-example-widget",
   "version": "1.0.0",
   "description": "N/A",
   "type": "magento2-module",
   "require": {
-    "magento/framework": "*"
+    "magento/framework": "*",
+      "yireo/magento2-example-homepage-color-widget": "*"
   },
   "license": [
     "Proprietary"
