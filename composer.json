@@ -1,21 +1,21 @@
 {
-  "name": "hyva-themes/magento2-yireo-example-widget",
-  "version": "1.0.0",
-  "description": "N/A",
-  "type": "magento2-module",
-  "require": {
-    "magento/framework": "*",
-      "yireo/magento2-example-homepage-color-widget": "*"
-  },
-  "license": [
-    "Proprietary"
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "hyva-themes/magento2-yireo-example-widget",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*",
+        "yireo/magento2-example-homepage-color-widget": "*"
+    },
+    "license": [
+        "Proprietary"
     ],
-    "psr-4": {
-      "Hyva\\YireoExampleHomepageColorWidget\\": ""
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Hyva\\YireoExampleHomepageColorWidget\\": ""
+        }
     }
-  }
 }

@@ -4,6 +4,7 @@
     <module name="Hyva_YireoExampleHomepageColorWidget">
         <sequence>
             <module name="Yireo_ExampleHomepageColorWidget"/>
+            <module name="Hyva_CompatModuleFallback"/>
         </sequence>
     </module>
 </config>

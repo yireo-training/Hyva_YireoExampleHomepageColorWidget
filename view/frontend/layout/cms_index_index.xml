@@ -2,6 +2,7 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="urn:magento:module:View/Layout:etc/page_configuration.xsd">
     <body>
+        <!--
         <referenceContainer name="content">
             <block class="Yireo\ExampleHomepageColorWidget\Block\ExampleWidget" template="Hyva_YireoExampleHomepageColorWidget::example.phtml">
                 <arguments>
@@ -11,5 +12,6 @@
                 </arguments>
             </block>
         </referenceContainer>
+        -->
     </body>
 </page>
