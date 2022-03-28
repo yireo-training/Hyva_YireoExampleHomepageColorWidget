@@ -5,6 +5,7 @@
     "type": "magento2-module",
     "require": {
         "magento/framework": "*",
+        "hyva-themes/magento2-compat-module-fallback": "*",
         "yireo-training/magento2-example-homepage-color-widget": "*"
     },
     "license": [
